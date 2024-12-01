@@ -1,0 +1,6 @@
+{
+  "tasks": {},
+  "imports": {
+    "@kiritaniayaka/aoc-toolkit": "jsr:@kiritaniayaka/aoc-toolkit@^0.1.0"
+  }
+}
