@@ -1,11 +1,15 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@elf/combinatorics@^1.0.14": "1.0.14",
     "jsr:@kiritaniayaka/aoc-toolkit@0.1": "0.1.0",
     "jsr:@std/fs@^1.0.6": "1.0.6",
     "jsr:@std/path@^1.0.8": "1.0.8"
   },
   "jsr": {
+    "@elf/combinatorics@1.0.14": {
+      "integrity": "5539b5f9873596c6201de386079548af08697a3abc735d59f187ff8b902aa137"
+    },
     "@kiritaniayaka/aoc-toolkit@0.1.0": {
       "integrity": "7238d98e60313a4f6e47aeb9773ec2dd0de7e38e00da720a6cc346029aeb7db2",
       "dependencies": [
