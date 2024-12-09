@@ -1,35 +1,16 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@elf/combinatorics@^1.0.14": "1.0.14",
-    "jsr:@kiritaniayaka/aoc-toolkit@0.1": "0.1.0",
-    "jsr:@std/fs@^1.0.6": "1.0.6",
-    "jsr:@std/path@^1.0.8": "1.0.8"
+    "jsr:@elf/combinatorics@^1.0.14": "1.0.14"
   },
   "jsr": {
     "@elf/combinatorics@1.0.14": {
       "integrity": "5539b5f9873596c6201de386079548af08697a3abc735d59f187ff8b902aa137"
-    },
-    "@kiritaniayaka/aoc-toolkit@0.1.0": {
-      "integrity": "7238d98e60313a4f6e47aeb9773ec2dd0de7e38e00da720a6cc346029aeb7db2",
-      "dependencies": [
-        "jsr:@std/fs",
-        "jsr:@std/path"
-      ]
-    },
-    "@std/fs@1.0.6": {
-      "integrity": "42b56e1e41b75583a21d5a37f6a6a27de9f510bcd36c0c85791d685ca0b85fa2",
-      "dependencies": [
-        "jsr:@std/path"
-      ]
-    },
-    "@std/path@1.0.8": {
-      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@kiritaniayaka/aoc-toolkit@0.1"
+      "jsr:@kiritaniayaka/aoc-toolkit@~0.2.1"
     ]
   }
 }
