@@ -1,6 +1,7 @@
 import sharp from "npm:sharp@0.33.5";
 import { Buffer } from "node:buffer";
 import { join } from "jsr:@std/path@1.0.8";
+import { ensureDir } from "jsr:@std/fs@^1.0.6";
 
 export async function solve(input: string) {
   const numbersIn = (str: string) =>
@@ -23,9 +24,7 @@ export async function solve(input: string) {
     );
 
     const outputDir = join(import.meta.filename!, "..", "visualize");
-    if (Deno.statSync(outputDir).isDirectory) {
-      Deno.removeSync("./day14/visualize", { recursive: true });
-    }
+    await ensureDir(outputDir);
     const image = Buffer.alloc(SIZE_X * SIZE_Y, 0);
     for (const [x, y] of moved) image[x + y * SIZE_X] = 255;
     await sharp(image, {
