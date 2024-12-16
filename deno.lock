@@ -3,6 +3,7 @@
   "specifiers": {
     "jsr:@elf/combinatorics@^1.0.14": "1.0.14",
     "jsr:@kiritaniayaka/aoc-toolkit@~0.2.1": "0.2.1",
+    "jsr:@kiritaniayaka/surprise@0.4.0": "0.4.0",
     "jsr:@std/cli@^1.0.7": "1.0.8",
     "jsr:@std/fs@^1.0.6": "1.0.6",
     "jsr:@std/path@1.0.6": "1.0.6",
@@ -21,6 +22,9 @@
         "jsr:@std/fs",
         "jsr:@std/path@^1.0.8"
       ]
+    },
+    "@kiritaniayaka/surprise@0.4.0": {
+      "integrity": "ddcc27fabc6e2f80125b7fafe7e7de10f6061d7d0ed09389431447f4fe85f74d"
     },
     "@std/cli@1.0.8": {
       "integrity": "3762d8dc9a373715c08d871c38d45e637b25266f013a1d0bbe560bca409de94e"
